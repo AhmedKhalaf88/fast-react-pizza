@@ -22,7 +22,7 @@ function OrderItem({ item, isLoadingIngredients, ingredients }) {
 OrderItem.propTypes = {
   item: PropTypes.object,
   isLoadingIngredients: PropTypes.bool,
-  ingredients: PropTypes.object,
+  ingredients: PropTypes.array,
 };
 
 export default OrderItem;
